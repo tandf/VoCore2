@@ -5,10 +5,10 @@ Source: package/base-files
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
-Installed-Size: 51500
+Installed-Size: 51501
 Filename: base-files_194.2-r7676-cddd7b4c77_mipsel_24kc.ipk
-Size: 52450
-SHA256sum: 28c3e172ac3f7557ef8903a2d7d97bf050ac1d7b8ce3c51c3dcd515a90c8be9b
+Size: 52449
+SHA256sum: d68c91b85ce9964683d9eac6c0b98f06fb027ed8f801402b190ac2d868ace7e4
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -129,145 +129,145 @@ Description:  Command line frontend for the wireless information library.
 
 Package: kmod-ac97
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-sound-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-sound-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 106
 Filename: kmod-ac97_4.14.95-1_mipsel_24kc.ipk
-Size: 817
-SHA256sum: a0d3d1807c37b2ac0019621185ed0ed8532faa62d53e0f83cc76bc5c6829146c
+Size: 815
+SHA256sum: 16b7e1b8216ae94ee061339ad6025acbab46b94907139b3a5833817caa80b392
 Description:  The ac97 controller
 
 Package: kmod-crypto-acompress
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 3264
 Filename: kmod-crypto-acompress_4.14.95-1_mipsel_24kc.ipk
-Size: 3989
-SHA256sum: d113efd5000aa0cd0f4a069c19191368a3cd640929cc56d02d1f9924e8c83dd3
+Size: 3990
+SHA256sum: ec8711f7f6c4970813212231b7dcbb14efa5d3f7e9da76edf4b8865bb0a7fdd0
 Description:  Asynchronous Compression operations
 
 Package: kmod-crypto-crc32c
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-crypto-hash
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-crypto-hash
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 999
 Filename: kmod-crypto-crc32c_4.14.95-1_mipsel_24kc.ipk
-Size: 1746
-SHA256sum: db9435ad801ffe7a6e1bbea66223e2aa0ac6ceafe1829b411200e9afe6589270
+Size: 1743
+SHA256sum: 00aeb6115585634a03d22e54619f560bb6e24e16a4546ad85e1f98b1951a4a7b
 Description:  CRC32c CRC module
 
 Package: kmod-crypto-hash
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 6342
 Filename: kmod-crypto-hash_4.14.95-1_mipsel_24kc.ipk
-Size: 7045
-SHA256sum: 0faaaa923ab3a9b7b52a01c7569a6afd24f2ca9a6a527a5bc599d17db50c1754
+Size: 7041
+SHA256sum: 302cbd7c37fa5ef04916a40bde086a8054b45b57e9d6235a817115aa7d892cb6
 Description:  CryptoAPI hash support
 
 Package: kmod-dma-buf
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 10597
 Filename: kmod-dma-buf_4.14.95-1_mipsel_24kc.ipk
-Size: 11346
-SHA256sum: a35e112fc12f93c7f2724e6158c4dd77726456e1d1f7970fe1160c65309964a0
+Size: 11344
+SHA256sum: f1a031721858177bcf5c3108586e724b238f60c08b6349e54e56d1be34b11625
 Description:  DMA shared buffer support
 
 Package: kmod-dma-ralink
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 6336
 Filename: kmod-dma-ralink_4.14.95-1_mipsel_24kc.ipk
-Size: 7052
-SHA256sum: 7788d05b7b4070d2b9033eba7f2ad00164a5de43edb195c317819c532eceb6cd
+Size: 7049
+SHA256sum: c23f79f13cd20f5f4b9db8d0b29fdb867a15ca87bb27d6f4134b28bc683784a7
 Description:  Kernel modules for enable ralink dma engine.
 
 Package: kmod-fs-ext4
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-lib-crc16, kmod-crypto-hash, kmod-crypto-crc32c
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-lib-crc16, kmod-crypto-hash, kmod-crypto-crc32c
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 238644
 Filename: kmod-fs-ext4_4.14.95-1_mipsel_24kc.ipk
-Size: 238774
-SHA256sum: 9b00f78fb9570b35c02eee4ef44fce0cf83c998cb25876f213611a3cecbe0702
+Size: 238766
+SHA256sum: a1737f4e4efcb40edc1a24e155130c9a1e6354138b500453fbdea138c54e7078
 Description:  Kernel module for EXT4 filesystem support
 
 Package: kmod-fs-msdos
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-fs-vfat, kmod-nls-base
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-fs-vfat, kmod-nls-base
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 4810
 Filename: kmod-fs-msdos_4.14.95-1_mipsel_24kc.ipk
-Size: 5542
-SHA256sum: 8b4fb51be806289ec4027ce05315253c8c77b1c730205513066256aa2dcd783b
+Size: 5539
+SHA256sum: 0200cd38a293101743c9e7f94207723c60d23d17f7f6ffb44d6d2a4e89bbef5f
 Description:  Kernel module for MSDOS filesystem support
 
 Package: kmod-fs-ntfs
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nls-base
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nls-base
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 51029
 Filename: kmod-fs-ntfs_4.14.95-1_mipsel_24kc.ipk
-Size: 51627
-SHA256sum: c2848a354f39178f29ee7aa75836cc0aee4ba406e937834ad0c2f80d83cf9675
+Size: 51629
+SHA256sum: 575639a6227a4392331b3deb1730a81e16fb32b0af7c22568845478385d2e536
 Description:  Kernel module for NTFS filesystem support
 
 Package: kmod-fs-vfat
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nls-base, kmod-nls-cp437, kmod-nls-iso8859-1, kmod-nls-utf8
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nls-base, kmod-nls-cp437, kmod-nls-iso8859-1, kmod-nls-utf8
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 38420
 Filename: kmod-fs-vfat_4.14.95-1_mipsel_24kc.ipk
-Size: 39176
-SHA256sum: c79f1f40152c5746abe8a568613ff91ec0e80ed6c00c09f42e979737d80f969f
+Size: 39179
+SHA256sum: f8af182f2725399bb82aa9c163782a95754eb8854216f846e30b95ab18128b3f
 Description:  Kernel module for VFAT filesystem support
 
 Package: kmod-gpio-button-hotplug
 Version: 4.14.95-2
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/gpio-button-hotplug
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
-Installed-Size: 5222
+Installed-Size: 5231
 Filename: kmod-gpio-button-hotplug_4.14.95-2_mipsel_24kc.ipk
-Size: 6127
-SHA256sum: cba52b1659753c5fc2dbca6a0aa56c430f1a5551d123785e79d88c39a02b26f5
+Size: 6133
+SHA256sum: a5c693c55a2c76940b6d13ea6532832a3a8193b23983890858a4fa5d105a41f3
 Description:  This is a replacement for the following in-kernel drivers:
  1) gpio_keys (KEYBOARD_GPIO)
  2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
@@ -276,22 +276,48 @@ Description:  This is a replacement for the following in-kernel drivers:
  uevent-s and broadcasts them. This allows disabling input subsystem which is
  an overkill for OpenWrt simple needs.
 
+Package: kmod-hid-generic
+Version: 4.14.95-1
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-hid
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mipsel_24kc
+Installed-Size: 801
+Filename: kmod-hid-generic_4.14.95-1_mipsel_24kc.ipk
+Size: 1532
+SHA256sum: 3e982e678e7d756ac28ff5a6c64a393fd109011a05339ac2d47ae16062691324
+Description:  Generic HID device support
+
+Package: kmod-hid
+Version: 4.14.95-1
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mipsel_24kc
+Installed-Size: 41092
+Filename: kmod-hid_4.14.95-1_mipsel_24kc.ipk
+Size: 41327
+SHA256sum: 800871c92bddb54339e761e03bfa120769feb1d321d6e7a46502a97965ad0ece
+Description:  Kernel modules for HID devices
+
 Package: kmod-i2c-algo-bit
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-i2c-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-i2c-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 3438
 Filename: kmod-i2c-algo-bit_4.14.95-1_mipsel_24kc.ipk
-Size: 4173
-SHA256sum: 1daeca87b2959c7c4d91fd9d315b27e9d8b43e41c647291939dea827ea80c1f5
+Size: 4169
+SHA256sum: 5ad63c16d0a0923d10b2666533be66c534900169307c912d233aa6a704ceb4a5
 Description:  Kernel modules for I2C bit-banging interfaces
 
 Package: kmod-i2c-core
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -299,24 +325,24 @@ Architecture: mipsel_24kc
 Installed-Size: 18641
 Filename: kmod-i2c-core_4.14.95-1_mipsel_24kc.ipk
 Size: 19385
-SHA256sum: dff72a8e8b81318e3729657b33f666377c75dc34b8b667b8e1a9bb018d9400dc
+SHA256sum: e780865f71d7c99aebc28374c4ed8af4e14a7e930519f98c3e8eb8706a961bf4
 Description:  Kernel modules for I2C support
 
 Package: kmod-i2c-gpio-custom
 Version: 4.14.95-2
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-i2c-core, kmod-i2c-gpio
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-i2c-core, kmod-i2c-gpio
 Source: package/kernel/i2c-gpio-custom
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 1603
 Filename: kmod-i2c-gpio-custom_4.14.95-2_mipsel_24kc.ipk
-Size: 2364
-SHA256sum: 3de83b78239d42b40126e0e9acf416c508b05a3972cd9bede7257bb978eb921c
+Size: 2368
+SHA256sum: 3b1b1faf3ef965ce07d2a7922cfb0f07feb6bf26e7720a84ca0782af4e568110
 Description:  Kernel module for register a custom i2c-gpio platform device.
 
 Package: kmod-i2c-gpio
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-i2c-algo-bit
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-i2c-algo-bit
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -324,39 +350,52 @@ Architecture: mipsel_24kc
 Installed-Size: 2562
 Filename: kmod-i2c-gpio_4.14.95-1_mipsel_24kc.ipk
 Size: 3353
-SHA256sum: 663e761b547285ce56226f247d837d3c0a7b6bd1ff4744a3069edfc1d9db6f81
+SHA256sum: 2d9143dfc41a8bcdf32dec4e60a5e2297f33aa340bf32c1346a481e9167cfd7a
 Description:  Kernel modules for a very simple bitbanging I2C driver utilizing the
  arch-neutral GPIO API to control the SCL and SDA lines.
 
 Package: kmod-input-core
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 16452
 Filename: kmod-input-core_4.14.95-1_mipsel_24kc.ipk
-Size: 17183
-SHA256sum: a4b5c777fa136574e41e36e9a5af6bff41a44f9129849da50185cce859d39438
+Size: 17184
+SHA256sum: 34f69609fc7426c503fa98b1ea1344846764ed4fe006c504a346d30dbd8dfc76
 Description:  Kernel modules for support of input device
+
+Package: kmod-input-evdev
+Version: 4.14.95-1
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-input-core
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mipsel_24kc
+Installed-Size: 7334
+Filename: kmod-input-evdev_4.14.95-1_mipsel_24kc.ipk
+Size: 8080
+SHA256sum: dc167b33445267f8cfbd170eaf9c4dbd4dd28ea0b12e9e0e4bf324653376fdab
+Description:  Kernel modules for support of input device events
 
 Package: kmod-ip6tables
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nf-reject6, kmod-nf-ipt6, kmod-ipt-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nf-reject6, kmod-nf-ipt6, kmod-ipt-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 6262
 Filename: kmod-ip6tables_4.14.95-1_mipsel_24kc.ipk
-Size: 7067
-SHA256sum: 591c847aeaa2819929e2da1727a96250873bdcc251bc30b3f6d4a4f57a9ba72c
+Size: 7066
+SHA256sum: a099f80562b1da7302d1a83c968557fd65db74bfdffe270d9039650884633ce6
 Description:  Netfilter IPv6 firewalling support
 
 Package: kmod-ipt-conntrack
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-ipt-core, kmod-nf-conntrack
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-ipt-core, kmod-nf-conntrack
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -364,7 +403,7 @@ Architecture: mipsel_24kc
 Installed-Size: 2248
 Filename: kmod-ipt-conntrack_4.14.95-1_mipsel_24kc.ipk
 Size: 3031
-SHA256sum: 670a473926830bab686a73c43d9f5afc9f3e75838951c97b0e59dbad861321e9
+SHA256sum: 27dcbd23f07e8983cd6022d8de23b676f68a60f8a4cfdcc9f0f5918d233a8047
 Description:  Netfilter (IPv4) kernel modules for connection tracking
  Includes:
  - conntrack
@@ -375,15 +414,15 @@ Description:  Netfilter (IPv4) kernel modules for connection tracking
 
 Package: kmod-ipt-core
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nf-reject, kmod-nf-ipt
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nf-reject, kmod-nf-ipt
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 14847
 Filename: kmod-ipt-core_4.14.95-1_mipsel_24kc.ipk
-Size: 15588
-SHA256sum: bd285730674cf78fa4d794b7fee7a9affc0999bc238e44a0a6e786e934e996f9
+Size: 15589
+SHA256sum: bede730d029f7d124e3322d832587dbe5b659b3e3c396220c764000729125ceb
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -396,7 +435,7 @@ Description:  Netfilter core kernel modules
 
 Package: kmod-ipt-nat
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-ipt-core, kmod-nf-nat
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-ipt-core, kmod-nf-nat
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -404,143 +443,143 @@ Architecture: mipsel_24kc
 Installed-Size: 3246
 Filename: kmod-ipt-nat_4.14.95-1_mipsel_24kc.ipk
 Size: 4041
-SHA256sum: 13be6c215072cad6c9a91ba9b834ca663d5fd2e9235f9dcf92e7f6bedba2fcbf
+SHA256sum: 02c24acda4818683282cd1560734d8dc343f6c5146cfa9cdd6aad73121b97354
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
 
 Package: kmod-ipt-offload
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-ipt-core, kmod-nf-flow
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-ipt-core, kmod-nf-flow
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 2904
 Filename: kmod-ipt-offload_4.14.95-1_mipsel_24kc.ipk
-Size: 3638
-SHA256sum: 436d0f7db0cf07eb7f45b0ec835d392dffa0ace5e908546dce1077685cd3357a
+Size: 3643
+SHA256sum: 99e12efb6139a50afd53d42a9a9f4b7ea436099f35c63ae1a4c8f44d22361e69
 Description:  Netfilter routing/NAT offload support
 
 Package: kmod-iptunnel4
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 1794
 Filename: kmod-iptunnel4_4.14.95-1_mipsel_24kc.ipk
-Size: 2546
-SHA256sum: 63d60cb2a18c1de30ec74fe3951cefaf29d1ec6260ccbe1bced386ce1da6afd0
+Size: 2548
+SHA256sum: f6f95344f2af7fcc709fc021d344aa7f6c16132f95ce662d7cf3ce38f41e996c
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 7889
 Filename: kmod-iptunnel_4.14.95-1_mipsel_24kc.ipk
-Size: 8614
-SHA256sum: 4683bb753e330d46a6fa7338f2b48dfb6df823c1d1343c769751326ba0dadfbb
+Size: 8610
+SHA256sum: cb89f4e0c3548a312ed24320599d4df9c6911ebdacf94d496f4b87faaa09fb60
 Description:  Kernel module for generic IP tunnel support
 
 Package: kmod-leds-gpio
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 2641
 Filename: kmod-leds-gpio_4.14.95-1_mipsel_24kc.ipk
-Size: 3361
-SHA256sum: 70858a18101411f37bb7279410d86a5879ea1b07bf5bf167c0b8c8500a5a03df
+Size: 3368
+SHA256sum: 3fac3e4ce77e4f9761124877831234b373f0332e36a20d7d9c8442a3d0b28c23
 Description:  Kernel module for LEDs on GPIO lines
 
 Package: kmod-lib-crc-ccitt
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 1293
 Filename: kmod-lib-crc-ccitt_4.14.95-1_mipsel_24kc.ipk
-Size: 2049
-SHA256sum: e43cc080331a4897171531298b780f7978e44ab769be30cf0be925e0619ac3f5
+Size: 2048
+SHA256sum: bf3294edeed02aae7b14f3c1da53205f3340d18de70ef116ec677a9ce6e6488e
 Description:  Kernel module for CRC-CCITT support
 
 Package: kmod-lib-crc16
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 1267
 Filename: kmod-lib-crc16_4.14.95-1_mipsel_24kc.ipk
-Size: 2020
-SHA256sum: ed25dfe5e7648c95000bf31adb3111eb745caf6d68bdc53b1ac720bc73cfc3a8
+Size: 2021
+SHA256sum: 9597c1e0d10ee32110a0351050d022747fc508040ac483e685a5760ba45a9128
 Description:  Kernel module for CRC16 support
 
 Package: kmod-lib-lzo
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-crypto-acompress
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-crypto-acompress
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 3525
 Filename: kmod-lib-lzo_4.14.95-1_mipsel_24kc.ipk
-Size: 4276
-SHA256sum: 64ab3935976b0c78bc2e74acf55c350605fc2d1dd850dc9bc61acb4a32a412f7
+Size: 4274
+SHA256sum: 81f8612e034ed28b94645eeb6b64fada05bd7b5108690795f1b379f61bfc8d92
 Description:  Kernel module for LZO compression/decompression support
 
 Package: kmod-mmc
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 61130
 Filename: kmod-mmc_4.14.95-1_mipsel_24kc.ipk
-Size: 61785
-SHA256sum: 3927934099a52aafc648899e69765c7ef7d5ac76d7a7f7f92e6da7cc5cf123a1
+Size: 61784
+SHA256sum: 4500c460182ef9654fd17b4514816a0bb359e70ea76807fbfc56c22b63897ebb
 Description:  Kernel support for MMC/SD cards
 
 Package: kmod-mt7628
 Version: 4.14.95+p4rev-120395-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/vocore2/mt7628
 Section: kernel
 Architecture: mipsel_24kc
-Installed-Size: 506972
+Installed-Size: 524325
 Filename: kmod-mt7628_4.14.95+p4rev-120395-1_mipsel_24kc.ipk
-Size: 505947
-SHA256sum: 3d651c335e08e20c9d529dc1235537ddbabb76375d29abd56330e2311b6f661b
+Size: 522993
+SHA256sum: 82fb3a82db8235eed2456568a5ca5bd6510ebc6b1b165f5192439efd53dcfda2
 Description:  MTK MT7628 wifi driver
 
 Package: kmod-nf-conntrack6
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nf-conntrack
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nf-conntrack
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 7801
 Filename: kmod-nf-conntrack6_4.14.95-1_mipsel_24kc.ipk
-Size: 8549
-SHA256sum: 2486bafc2d2272db02f4b34a5b03dfa8736dfa61d4e3076264f39c924cb77bd8
+Size: 8547
+SHA256sum: 57f3eeaebd64938f6e5f1c0e345cac4529541f05ea2c9e3c0d4ab34a785c8d94
 Description:  Netfilter IPv6 connection tracking
 
 Package: kmod-nf-conntrack
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -548,12 +587,12 @@ Architecture: mipsel_24kc
 Installed-Size: 38601
 Filename: kmod-nf-conntrack_4.14.95-1_mipsel_24kc.ipk
 Size: 39400
-SHA256sum: 7c7a4626eda9030a286a19a55c1dabb47d1f4b92bffc4affad3ca00c61365342
+SHA256sum: 3fc8d64f604f58b2787253d1b94f5a182ccb34ef031755aa2d61298eb92e9e53
 Description:  Netfilter connection tracking
 
 Package: kmod-nf-flow
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nf-conntrack
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nf-conntrack
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -561,12 +600,12 @@ Architecture: mipsel_24kc
 Installed-Size: 9430
 Filename: kmod-nf-flow_4.14.95-1_mipsel_24kc.ipk
 Size: 10197
-SHA256sum: 8884bf5e0e13f6177634b352b50fa16e9cb911559575c01b6165f7590e864eca
+SHA256sum: c14999a0f150dd523cfb3addbbfd117e782111473dc868bf42245b4116625b47
 Description:  Netfilter flowtable support
 
 Package: kmod-nf-ipt6
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nf-ipt
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nf-ipt
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -574,38 +613,38 @@ Architecture: mipsel_24kc
 Installed-Size: 7616
 Filename: kmod-nf-ipt6_4.14.95-1_mipsel_24kc.ipk
 Size: 8348
-SHA256sum: 6d13e6021eb0f1444a47f7a4efef97ea9a55ffe4ae50d00ec18834d2166694e0
+SHA256sum: 4b142b92f91071dd7c0e280e8744e094580c5a9d04d57d820ccff051ec7ec01a
 Description:  Ip6tables core
 
 Package: kmod-nf-ipt
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 15550
 Filename: kmod-nf-ipt_4.14.95-1_mipsel_24kc.ipk
-Size: 16237
-SHA256sum: 1336bde36fa245ed32096305511787f884dbeaa756304c07103bdaea1c55f30a
+Size: 16240
+SHA256sum: d016c87660f100353f4f8c1f8267fb7dfe65cd75706d4ffd20b39596a9bd399b
 Description:  Iptables core
 
 Package: kmod-nf-nat
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nf-conntrack
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nf-conntrack
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 11068
 Filename: kmod-nf-nat_4.14.95-1_mipsel_24kc.ipk
-Size: 11778
-SHA256sum: db7307164714ce0503070203a0d51e2b065a462c4eaf94dee4fa336e3af82279
+Size: 11777
+SHA256sum: 92f80800eae13ae13c278bab0698fc7054fb84ce97030a42da53c16dd2c91487
 Description:  Netfilter NAT
 
 Package: kmod-nf-reject6
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -613,38 +652,38 @@ Architecture: mipsel_24kc
 Installed-Size: 2268
 Filename: kmod-nf-reject6_4.14.95-1_mipsel_24kc.ipk
 Size: 3009
-SHA256sum: 7765a5f69f107321cc288dac0695e1302e3925368bd337cbe84221e60e152071
+SHA256sum: 520cae7a023fab1735ee1bcc40681a90143bf5f8bbd0d5cbdaa5b254496fb46f
 Description:  Netfilter IPv6 reject support
 
 Package: kmod-nf-reject
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 1930
 Filename: kmod-nf-reject_4.14.95-1_mipsel_24kc.ipk
-Size: 2679
-SHA256sum: 47f16858d9ad55f18eaed730b633485f377f70ae85967c253dcf893f43a09ed2
+Size: 2685
+SHA256sum: 15cede5d26a6baec904d404b8eea4097c158b90111af42bf329ea37a59a46c8b
 Description:  Netfilter IPv4 reject support
 
 Package: kmod-nls-base
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7)
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 3012
 Filename: kmod-nls-base_4.14.95-1_mipsel_24kc.ipk
-Size: 3743
-SHA256sum: f4553247ba7c76c72f81e8c8eba7ba90c634d2161ba2237d0bdbaa04cad7d6bb
+Size: 3737
+SHA256sum: 3c4d3dd785498dfaf5f0db87ddfa6d1dc3700a8092e14e429b5bc5e4e4d0f8ef
 Description:  Kernel module for NLS (Native Language Support)
 
 Package: kmod-nls-cp437
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nls-base
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nls-base
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -652,25 +691,25 @@ Architecture: mipsel_24kc
 Installed-Size: 2064
 Filename: kmod-nls-cp437_4.14.95-1_mipsel_24kc.ipk
 Size: 2819
-SHA256sum: 98d80cad015a5494dba0d089523a44f68bbf0629caf277e07f2ba93e5abd3edd
+SHA256sum: e8c99b2710feb6bcd3f29adeb166b7b09a65f7293dae7e0a7435e428a4c7ddc0
 Description:  Kernel module for NLS Codepage 437 (United States, Canada)
 
 Package: kmod-nls-iso8859-1
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nls-base
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nls-base
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 1697
 Filename: kmod-nls-iso8859-1_4.14.95-1_mipsel_24kc.ipk
-Size: 2463
-SHA256sum: 1c5778a494cf80ac4c5b83c4722c3debe44f4e151b8c5185e8071946b98ce6aa
+Size: 2460
+SHA256sum: df1e882564637aa505ded0b2c578591e3badcc1f2a1d5556521b8e75dd883a6f
 Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
 
 Package: kmod-nls-utf8
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nls-base
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nls-base
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -678,51 +717,51 @@ Architecture: mipsel_24kc
 Installed-Size: 964
 Filename: kmod-nls-utf8_4.14.95-1_mipsel_24kc.ipk
 Size: 1715
-SHA256sum: 76611a843db6a3c1cb9e36c13db6d6227d9107f0f3e9e80a7c9704cbc797a10f
+SHA256sum: 6a2ec7d5dd85424c4a301b96b16730e2d4103afdfff243193b1f4c4b5887e48c
 Description:  Kernel module for NLS UTF-8
 
 Package: kmod-ppp
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-lib-crc-ccitt, kmod-slhc
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-lib-crc-ccitt, kmod-slhc
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 20579
 Filename: kmod-ppp_4.14.95-1_mipsel_24kc.ipk
-Size: 21335
-SHA256sum: 6878df2dc58d9b3dab5c8e97b531f674886167ab27d9b1760f65c690a4c055b3
+Size: 21333
+SHA256sum: c61f4d71b6facdc24aef19b336632fee83020575d4418965a69f991df98866dd
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoe
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-ppp, kmod-pppox
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-ppp, kmod-pppox
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 6636
 Filename: kmod-pppoe_4.14.95-1_mipsel_24kc.ipk
-Size: 7437
-SHA256sum: e44c31a514a824c1eda9440f8470a61830edebc82db4ae33cd98c767ac17067c
+Size: 7434
+SHA256sum: cc3ab40fc8e1f09633072bfb3382a3470d91ba9cc8b724ffe19141b0c13126fc
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppox
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-ppp
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-ppp
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 1566
 Filename: kmod-pppox_4.14.95-1_mipsel_24kc.ipk
-Size: 2320
-SHA256sum: bbd3a2323bdd6dbf152796d199a8f42295f75056b0612300fa10880d09ffc6e8
+Size: 2321
+SHA256sum: d589f8cd397df092bffaf7398d1c26bbf9098464fc2f9a1a51c41b9b35fb5f0b
 Description:  Kernel helper module for PPPoE and PPTP support
 
 Package: kmod-regmap
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-lib-lzo, kmod-i2c-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-lib-lzo, kmod-i2c-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -730,64 +769,77 @@ Architecture: mipsel_24kc
 Installed-Size: 2467
 Filename: kmod-regmap_4.14.95-1_mipsel_24kc.ipk
 Size: 3209
-SHA256sum: 2d2cbcf8ec8dcea2bccf722e691a5d56b92060f8fabc7710883ea710235ba967
+SHA256sum: 9e8f20a95b45cfa9bb2f467630a9cd818789b005e894bfe58812218bf44980dc
 Description:  Generic register map support
+
+Package: kmod-scsi-core
+Version: 4.14.95-1
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mipsel_24kc
+Installed-Size: 76122
+Filename: kmod-scsi-core_4.14.95-1_mipsel_24kc.ipk
+Size: 76454
+SHA256sum: c53f14dcf69b87c1713b06d2a5fbac88d990613bfb13205be451d6415306f136
+Description:  SCSI device support
 
 Package: kmod-sdhci-mt7620
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-mmc
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-mmc
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 12184
 Filename: kmod-sdhci-mt7620_4.14.95-1_mipsel_24kc.ipk
-Size: 12894
-SHA256sum: c4292c33938ad3ebf50e6db626bedac8b26419c2c0cebce2c188e939735842a6
+Size: 12892
+SHA256sum: 84f7fd2f42afe509e43dd4aaf3ce3c26ed85c333387f78355545c62debdad216
 Description:  MT7620 SDCI
 
 Package: kmod-sit
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-iptunnel, kmod-iptunnel4
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-iptunnel, kmod-iptunnel4
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 9974
 Filename: kmod-sit_4.14.95-1_mipsel_24kc.ipk
-Size: 10715
-SHA256sum: 5acc6b9752a40d9a56db47555c2b5edb2b52c14c11f0ca269b1d76716f866957
+Size: 10714
+SHA256sum: 67784c32b33962cf6ddf50771cf5dbfc0179c15590e0cd889a3a22169f71aaa8
 Description:  Kernel modules for IPv6-in-IPv4 tunnelling
 
 Package: kmod-slhc
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-lib-crc-ccitt
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-lib-crc-ccitt
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 3358
 Filename: kmod-slhc_4.14.95-1_mipsel_24kc.ipk
-Size: 4104
-SHA256sum: e80e8f88e0b6062b8def86f53e22a116ec5ee75c0d15f384eef66999f4b6a692
+Size: 4106
+SHA256sum: 7473af01aadfa35d4084afb41be16c2dd6a74aa726e0f8418280b2476a55f3db
 Description:  Serial Line Header Compression
 
 Package: kmod-sound-core
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-input-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-input-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 127128
 Filename: kmod-sound-core_4.14.95-1_mipsel_24kc.ipk
-Size: 127553
-SHA256sum: a3bcb5aeed4b1f238560dd19aab649f2930069d847ad2e680fd610970985615c
+Size: 127555
+SHA256sum: 4a2e69427cbeb8be5993cb3df4c14760a929e9f2ca6f7201800083b07f5e8fd1
 Description:  Kernel modules for sound support
 
 Package: kmod-sound-mt7628
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-sound-soc-core, kmod-regmap, kmod-dma-ralink, kmod-sound-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-sound-soc-core, kmod-regmap, kmod-dma-ralink, kmod-sound-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
@@ -795,59 +847,85 @@ Architecture: mipsel_24kc
 Installed-Size: 14977
 Filename: kmod-sound-mt7628_4.14.95-1_mipsel_24kc.ipk
 Size: 15688
-SHA256sum: 645960c6c7bc46cc6db9c6ca31170e5f34ee0282ce7877f8bce30643bd3ac37b
+SHA256sum: 12ebfcda5585b795536d5ea2f2f15096a43781afb5c9e5bf1aec143baa175254
 Description:  Alsa modules for ralink i2s controller.
 
 Package: kmod-sound-soc-core
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-regmap, kmod-ac97, kmod-sound-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-regmap, kmod-ac97, kmod-sound-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 58904
 Filename: kmod-sound-soc-core_4.14.95-1_mipsel_24kc.ipk
-Size: 59456
-SHA256sum: 7b56b945564da7b0efd8341aacf851f6086e451ffd472ee045badedfb9e4e4c2
+Size: 59459
+SHA256sum: d14da9d510dbe446ca41348f1dcd63ed4dabdbde48f6694fafd2f3ab1ec764df
 Description:  SoC sound support
+
+Package: kmod-tun
+Version: 4.14.95-1
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379)
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mipsel_24kc
+Installed-Size: 14367
+Filename: kmod-tun_4.14.95-1_mipsel_24kc.ipk
+Size: 15079
+SHA256sum: e5694e8317e7d77bfe9f3cdcd6af0c8b488845417b93e5853b5cf07c76dd67bf
+Description:  Kernel support for the TUN/TAP tunneling device
 
 Package: kmod-usb-core
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-nls-base
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-nls-base
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 77005
 Filename: kmod-usb-core_4.14.95-1_mipsel_24kc.ipk
-Size: 77439
-SHA256sum: 2006cd60bd81d800c821ec03678c2d4f790266806f8e33c560a8a9be14b1ea23
+Size: 77438
+SHA256sum: ffca48b197dc07dbd15afbd5f0dde2ea8f1dd5ac60e372dd256467a2e56291a7
 Description:  Kernel support for USB
 
 Package: kmod-usb-ehci
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-usb-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-usb-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 21917
 Filename: kmod-usb-ehci_4.14.95-1_mipsel_24kc.ipk
-Size: 22641
-SHA256sum: b650a874d4006c5fcee4c9738b92dd9d9e8392715de3d35e5bc0b5d1e3ed8dab
+Size: 22636
+SHA256sum: 055d6bea9e32411c302f6b613b3a848727672a9b25cd3aebc6446279337f8988
 Description:  EHCI controller support
+
+Package: kmod-usb-hid
+Version: 4.14.95-1
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-hid, kmod-hid-generic, kmod-input-evdev, kmod-usb-core
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mipsel_24kc
+Installed-Size: 15953
+Filename: kmod-usb-hid_4.14.95-1_mipsel_24kc.ipk
+Size: 16728
+SHA256sum: 33830280402699e028f189a93985c8be039ef5e726bd7f027c0231eafb9a8aec
+Description:  Kernel support for USB HID devices such as keyboards and mice
 
 Package: kmod-usb-ledtrig-usbport
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-usb-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-usb-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 2744
 Filename: kmod-usb-ledtrig-usbport_4.14.95-1_mipsel_24kc.ipk
-Size: 3585
-SHA256sum: 9d883a73cfd6d0f58bd4fc3109cabdb1b3503c3d74b8c5fc038a112f252110b2
+Size: 3584
+SHA256sum: 1fc216790250e20ad6406f46c74ee122a5bdecfaffe601f1926f07df963590ff
 Description:  This driver allows LEDs to be controlled by USB events. Enabling this
  trigger allows specifying list of USB ports that should turn on LED
  when some USB device gets connected.
@@ -855,67 +933,80 @@ Description:  This driver allows LEDs to be controlled by USB events. Enabling t
 
 Package: kmod-usb-ohci
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-usb-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-usb-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 19108
 Filename: kmod-usb-ohci_4.14.95-1_mipsel_24kc.ipk
-Size: 19812
-SHA256sum: 560f06f5598dd50e83af96d53d4a9f7e27cbd3464e373aa5631abe387b399773
+Size: 19808
+SHA256sum: 76bf066d4a676ab25478fa50ec16b8af23b188283296392ce67f6e9b6a5cdbcd
 Description:  Kernel support for USB OHCI controllers
+
+Package: kmod-usb-storage
+Version: 4.14.95-1
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-scsi-core, kmod-usb-core
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mipsel_24kc
+Installed-Size: 21903
+Filename: kmod-usb-storage_4.14.95-1_mipsel_24kc.ipk
+Size: 22260
+SHA256sum: 15637b5831d043626150c838f000001b52eef75e9b3760cc3d6d8c58f3b49161
+Description:  Kernel support for USB Mass Storage devices
 
 Package: kmod-usb2
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-usb-ehci, kmod-usb-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-usb-ehci, kmod-usb-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 3396
 Filename: kmod-usb2_4.14.95-1_mipsel_24kc.ipk
-Size: 4135
-SHA256sum: 7f1251b097153eb76ee11b33fa653ef581b02e819d12f1776505f8b0bc3d5e65
+Size: 4130
+SHA256sum: 10f323fd3a7e27dd055f3efb3a1dc5676466ef8b3a8f4cd97c82f1b6a7756862
 Description:  Kernel support for USB2 (EHCI) controllers
 
 Package: kmod-video-core
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-i2c-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-i2c-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 61755
 Filename: kmod-video-core_4.14.95-1_mipsel_24kc.ipk
-Size: 61898
-SHA256sum: bb3ee693047ef93338106623f6791135a421dff1be176b0498f4033c3c831ac0
+Size: 61897
+SHA256sum: 9a48f7ccde9b1bc345cff06a7bd27d071f6a2a6b212ebb368c0015250fcc30b4
 Description:  Kernel modules for Video4Linux support
 
 Package: kmod-video-uvc
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-usb-core, kmod-video-videobuf2, kmod-input-core, kmod-video-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-usb-core, kmod-video-videobuf2, kmod-input-core, kmod-video-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 38796
 Filename: kmod-video-uvc_4.14.95-1_mipsel_24kc.ipk
-Size: 39563
-SHA256sum: a7da4e83c21aa062047cf8a7302470bd3e8512536ab5786bc5f17a042ed04b85
+Size: 39560
+SHA256sum: 5c7e2c2d899ae5d78688f0acc3539ce8d4fd039f2824780e35d77e91518d23bd
 Description:  Kernel modules for supporting USB Video Class (UVC) devices
 
 Package: kmod-video-videobuf2
 Version: 4.14.95-1
-Depends: kernel (=4.14.95-1-5c97721436e28b4bbb97f3cb11a1d5c7), kmod-dma-buf, kmod-video-core
+Depends: kernel (=4.14.95-1-b73329136bc0693221417aeab1351379), kmod-dma-buf, kmod-video-core
 Source: package/kernel/linux
 License: GPL-2.0
 Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 22602
 Filename: kmod-video-videobuf2_4.14.95-1_mipsel_24kc.ipk
-Size: 23328
-SHA256sum: bbab6c906a0650a5dfe25385bc5cdfbad95d8db63c15a1bbe6e5db63e9ecc74f
+Size: 23325
+SHA256sum: 4e2bbea3ed72c7b8ade07621a49540ef837f8a9006c6c366e2bb97e223d11714
 Description:  Kernel modules that implements three basic types of media buffers.
 
 Package: libgcc
@@ -959,6 +1050,21 @@ Size: 18461
 SHA256sum: 43a0a03825ee13f53c02acaeb6a21b96d142c73747675e054a9692fbe26fbe08
 Description:  IPv6 firewall - shared libiptc library
 
+Package: libiwinfo-lua
+Version: 2018-07-31-65b8333f-1
+Depends: libc, libiwinfo, liblua
+Source: package/network/utils/iwinfo
+License: GPL-2.0
+Section: lang
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 5441
+Filename: libiwinfo-lua_2018-07-31-65b8333f-1_mipsel_24kc.ipk
+Size: 6236
+SHA256sum: 95986d8c18fefc8110945a9fa3fd29d2d6d9dd196a8b52fe1f136fc812e8f6c0
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
 Package: libiwinfo
 Version: 2018-07-31-65b8333f-1
 Depends: libc, libuci, libubus
@@ -989,6 +1095,37 @@ Filename: libpthread_1.1.19-1_mipsel_24kc.ipk
 Size: 878
 SHA256sum: 2bb62a0060bf9e409d531a8d52c0541fb70ac61358a74f89ad0d2e6c9bbd30bd
 Description:  POSIX thread library
+
+Package: librt
+Version: 1.1.19-1
+Depends: libpthread
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipsel_24kc
+Installed-Size: 126
+Filename: librt_1.1.19-1_mipsel_24kc.ipk
+Size: 888
+SHA256sum: 3d8c0db329d6c4bc43e6df7e33b5e052695dcac3843254e163df29ea918ad5e0
+Description:  POSIX.1b RealTime extension library
+
+Package: libstdcpp
+Version: 7.3.0-1
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipsel_24kc
+Installed-Size: 367418
+Filename: libstdcpp_7.3.0-1_mipsel_24kc.ipk
+Size: 366282
+SHA256sum: b50e0df732b13da9fc25e36b9147fb9f799d520db5dec1d8b0f1f29b783292ab
+Description:  GNU Standard C++ Library v3
 
 Package: libxtables
 Version: 1.6.2-1

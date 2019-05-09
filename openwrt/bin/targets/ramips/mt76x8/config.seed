@@ -1,11 +1,17 @@
 CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt76x8=y
 CONFIG_TARGET_ramips_mt76x8_DEVICE_vocore2=y
+CONFIG_BUSYBOX_CUSTOM=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_TELNETD_STANDALONE=y
+CONFIG_BUSYBOX_CONFIG_STTY=y
+CONFIG_BUSYBOX_CONFIG_TELNETD=y
 # CONFIG_DRIVER_11AC_SUPPORT is not set
 # CONFIG_DRIVER_11N_SUPPORT is not set
 # CONFIG_DRIVER_11W_SUPPORT is not set
+# CONFIG_FEED_luci is not set
 CONFIG_KERNEL_DEVMEM=y
 CONFIG_MT7628_APCLI_SUPPORT=y
+CONFIG_MT7628_ATE_SUPPORT=y
 CONFIG_MT7628_DOT11N_DRAFT3=y
 CONFIG_MT7628_DOT11W_PMF_SUPPORT=y
 CONFIG_MT7628_FIRST_IF_EEPROM_FLASH=y
@@ -27,6 +33,8 @@ CONFIG_MT7628_WIFI_BASIC_FUNC=y
 CONFIG_MT7628_WIFI_MODE_AP=y
 CONFIG_MT7628_WSC_INCLUDED=y
 CONFIG_MT7628_WSC_V2_SUPPORT=y
+CONFIG_PACKAGE_6in4=y
+CONFIG_PACKAGE_6rd=y
 CONFIG_PACKAGE_6to4=y
 CONFIG_PACKAGE_block-mount=y
 # CONFIG_PACKAGE_hostapd-common is not set
@@ -42,11 +50,14 @@ CONFIG_PACKAGE_kmod-fs-ext4=y
 CONFIG_PACKAGE_kmod-fs-msdos=y
 CONFIG_PACKAGE_kmod-fs-ntfs=y
 CONFIG_PACKAGE_kmod-fs-vfat=y
+CONFIG_PACKAGE_kmod-hid=y
+CONFIG_PACKAGE_kmod-hid-generic=y
 CONFIG_PACKAGE_kmod-i2c-algo-bit=y
 CONFIG_PACKAGE_kmod-i2c-core=y
 CONFIG_PACKAGE_kmod-i2c-gpio=y
 CONFIG_PACKAGE_kmod-i2c-gpio-custom=y
 CONFIG_PACKAGE_kmod-input-core=y
+CONFIG_PACKAGE_kmod-input-evdev=y
 CONFIG_PACKAGE_kmod-iptunnel=y
 CONFIG_PACKAGE_kmod-iptunnel4=y
 CONFIG_PACKAGE_kmod-lib-crc16=y
@@ -60,16 +71,48 @@ CONFIG_PACKAGE_kmod-nls-cp437=y
 CONFIG_PACKAGE_kmod-nls-iso8859-1=y
 CONFIG_PACKAGE_kmod-nls-utf8=y
 CONFIG_PACKAGE_kmod-regmap=y
+CONFIG_PACKAGE_kmod-scsi-core=y
 CONFIG_PACKAGE_kmod-sit=y
 CONFIG_PACKAGE_kmod-sound-core=y
 CONFIG_PACKAGE_kmod-sound-mt7628=y
 CONFIG_PACKAGE_kmod-sound-soc-core=y
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_kmod-usb-hid=y
+CONFIG_PACKAGE_kmod-usb-storage=y
 CONFIG_PACKAGE_kmod-video-core=y
 CONFIG_PACKAGE_kmod-video-uvc=y
 CONFIG_PACKAGE_kmod-video-videobuf2=y
-# CONFIG_PACKAGE_openwrt-keyring is not set
-# CONFIG_PACKAGE_usign is not set
+CONFIG_PACKAGE_libiwinfo-lua=y
+CONFIG_PACKAGE_liblua=y
+CONFIG_PACKAGE_liblucihttp=y
+CONFIG_PACKAGE_liblucihttp-lua=y
+CONFIG_PACKAGE_librt=y
+CONFIG_PACKAGE_libstdcpp=m
+CONFIG_PACKAGE_libubus-lua=y
+CONFIG_PACKAGE_libusb-1.0=m
+CONFIG_PACKAGE_lua=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-app-shadowsocks-libev=y
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-lib-ip=y
+CONFIG_PACKAGE_luci-lib-jsonc=y
+CONFIG_PACKAGE_luci-lib-nixio=y
+CONFIG_PACKAGE_luci-mod-admin-full=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-proto-ppp=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_qt5-core=m
+CONFIG_PACKAGE_qt5-network=m
+CONFIG_PACKAGE_qt5-widgets=m
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rpcd-mod-rrdns=y
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_usbutils=m
 # CONFIG_PACKAGE_wireless-regdb is not set
 CONFIG_PACKAGE_wireless-tools=y
 # CONFIG_PACKAGE_wpad-mini is not set
+CONFIG_PACKAGE_zlib=m
 # CONFIG_SIGNED_PACKAGES is not set
+CONFIG_PACKAGE_openwrt-keyring=y
+CONFIG_PACKAGE_usign=y
